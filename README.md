@@ -37,9 +37,14 @@ Upon deployment, the model predicts the efficiency of the system based on the pr
 # Prerequisites
 TensorFlow installation for initial model training and conversion.
 Arduino IDE with ESP32 board support for deployment.
-Getting Started
+
+### Getting Started
 Convert the trained ANN model to TFLite format, applying optional quantization for size reduction.
+
 Utilize the XXD tool to generate a C header file from the TFLite model.
+
 Prepare the model for deployment following the provided guidelines.
+
 Deploy the model to the ESP32-S3 WROOM-1 DevkitC-1 and test its real-time inference performance.
+
 This guide assumes familiarity with TensorFlow for model training and the Arduino development environment for deployment. Specific steps related to these aspects are provided separately or upon request
